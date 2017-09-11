@@ -23,10 +23,6 @@ public:
 
   bool isAvailable();
 
-  byte getStatus();
-  bool getIsBusy();
-  byte getAddress();
-
 protected:
 
   void writeIR(byte data);
